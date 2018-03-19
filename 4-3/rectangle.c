@@ -9,7 +9,7 @@ int width;      /* Width of rectangle in inches */
 int height;     /* Height of rectangle in inches */
 
 int area;       /* Area of rectange in inches */
-/*int perameter;  /* Perameter of rectange in inches */
+int parameter;  /* Parameter of rectange in inches */
 
 
 
@@ -19,6 +19,9 @@ int main() {
 
     area = width * height;
     printf("area = %d square inches\n", area);
+
+    parameter = (width * 2) + (height * 2);
+    printf("parameter = %d inches\n", parameter); 
 
     return (0);
 }
