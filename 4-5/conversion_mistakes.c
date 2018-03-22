@@ -6,6 +6,8 @@
  * - Prints a character using the %d conversion.
  **********************************************************************/
 
+#include <stdio.h>
+
 float floatnum;
 int intnum;
 char character;
