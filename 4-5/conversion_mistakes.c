@@ -5,7 +5,6 @@
  * - Prints an integer using the %f conversion.
  * - Prints a character using the %d conversion.
  **********************************************************************/
-#include <stdio.h>
 
 float floatnum;
 int intnum;
